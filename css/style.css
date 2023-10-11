@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    background-color: var(--main-bg);
+    color:var(--sec-text);
+}
+
+h1{
+    color:var(--pr-text);
+    font-size: 18px;
+}
+
+img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+:root{
+    --main-bg:#FAFAF9;
+    --card-bg:#FFFFFF;
+    --primary-color:#E6D6FC;
+    --secondary-color:#883AE1;
+    --pr-text:#20293A;
+    --sec-text:#6C727F;
+}
+
+.container{
+    max-width: 1230px;
+    padding-left:15px ;
+    padding-right: 15px;
+}
+
+.card{
+    max-width: 350px;
+    /* padding:30px; */
+    margin: 0 auto;
+    /* text-align: center; */
+    line-height: 1.5;
+    background-color: var(--card-bg);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card p{
+    max-width: 330px;
+    font-size: 14px;
+}
+
+.card img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card .card-tag{
+    background-color:var(--primary-color);
+    padding:8px 12px;
+    border-radius:20px;
+    font-size: 10px;
+}
+
+.footer{
+    font-size: 12px;
+    border-top:1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+}
